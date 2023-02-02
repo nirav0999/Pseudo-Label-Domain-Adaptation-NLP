@@ -832,7 +832,7 @@ for epoch_i in range(0, epochs):
                         t_on_t_test_logits],
                         best_predictions_folder1 +'epoch_'+ str(epoch_i)+'_t_on_t_predictions_test.pkl')
 
-        dumpPickleFile([t_on_t_val_label_ids1, t_on_t_val_final_embeddings1,
+        dumpPickleFile([t_on_t_val_label_ids, t_on_t_val_final_embeddings,
                         t_on_t_val_logits],
                         best_predictions_folder1 +'epoch_'+ str(epoch_i)+'_t_on_t_predictions_val.pkl')
 
