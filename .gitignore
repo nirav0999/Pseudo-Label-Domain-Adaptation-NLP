@@ -2,3 +2,5 @@ results/
 models/
 data/
 psl-venv/
+code/__pycache__/
+code/model/__pycache__/
