@@ -5,11 +5,11 @@ The official paper can be found here - <a href="https://aclanthology.org/2021.ad
 
 # Table of Contents
 
-1. [Introduction](## (Inspired) Asymmetric Tri-training Adaptation Method)
-2. [Methodology](## Data Format)
-3. [Installation](## Running)
-4. [Usage](#usage)
-5. [References](#references)
+1. [(Inspired) Asymmetric Tri-training Adaptation Method](#inspired-asymmetric-tri-training-adaptation-method)
+2. [Data Format](#data-format)
+3. [Running](#running)
+4. [Custom Source and Target Models](#custom-source-and-target-models)
+5. [Citation for original paper](#citation-for-original-paper)
 
 
 ## (Inspired) Asymmetric Tri-training Adaptation Method
@@ -45,14 +45,15 @@ Breaking Bad     &emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;  0 <br>
 ........
 
 
-## Running <br>
+## Running 
+<br>
 ```
 pip3 install -r requirements.txt
 cd code/model/
 python3 train_eval.py
 ```
 
-For now, the sBERT and tBERT have been initialized as the same-> "bert-base-uncased". <br>
+For now, the sBERT and tBERT have been initialized to the same value -> "bert-base-uncased". <br>
 
 
 After running the ```train_eval.py``` file, the results will be stored in the ```results``` folder. <br>
@@ -75,7 +76,8 @@ results
 
 ``` 
 
-## Custom Source & Target Models <br>
+## Custom Source and Target Models 
+<br>
 
 You can upload a custom BERT/RoBERTa by changing the model_path1 and model_path2 variables in the ```train_eval.py```. <br>
 
@@ -84,7 +86,7 @@ model_path1 = "bert-base-uncased"
 model_name2 = "bert-base-uncased"
 ```
 
-NOTE - model1 corresponds to the target model and model2 corresponds to the source model.
+<b>NOTE</b> - model1 corresponds to the target model and model2 corresponds to the source model.
 
 Both the models use the same BERT ("bert-base-uncased") tokenizer for now.
 
