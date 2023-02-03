@@ -111,7 +111,7 @@ Both the models use the same BERT ("bert-base-uncased") tokenizer for now.
 ```
 
 ## 👪 Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. For any detailed clarifications/issues, please email to nirdiwan[at]gmail[dot]com .
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. For any detailed clarifications/issues, please email to nirdiwan[at]gmail[dot]com.
 
 <!-- ## ⚖️ License
 [MIT](https://choosealicense.com/licenses/mit/) -->
