@@ -3,6 +3,15 @@
 
 The official paper can be found here - <a href="https://aclanthology.org/2021.adaptnlp-1.2/">Pseudo-Label Guided Unsupervised Domain Adaptation of Contextual Embeddings</a>. This implementation for text classification.
 
+# Table of Contents
+
+1. [Introduction](## (Inspired) Asymmetric Tri-training Adaptation Method)
+2. [Methodology](## Data Format)
+3. [Installation](## Running)
+4. [Usage](#usage)
+5. [References](#references)
+
+
 ## (Inspired) Asymmetric Tri-training Adaptation Method
 ![plot](images/model_image.png)*<p style="text-align: center;">Figure 1: A visualization of the Joint-Finetuning Step in the paper (not from paper; self-created)</p>*
 
