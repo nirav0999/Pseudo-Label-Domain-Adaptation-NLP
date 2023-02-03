@@ -26,6 +26,8 @@ By adding a third term in the loss function. The term is the matrix multiplicati
 
 ## Data Format 
 
+There is no data shared for this repository at the moment. You can load a dataset by creating a ```data``` folder and creating a directory structure as follows - 
+
 ```bash
 data
 ├── labeled
@@ -37,7 +39,7 @@ data
   └── target_val.csv 
 ``` 
 
-The format of ```source_test.csv``` is as followed - 
+The format of ```source_test.csv``` should be as follows - 
 
 sentence &emsp;&emsp;&emsp;&emsp;&emsp;  label <br>
 The Good Place &emsp;&emsp;&nbsp;&nbsp;  1 <br>
