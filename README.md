@@ -60,7 +60,7 @@ python3 train_eval.py
 For now, the sBERT and tBERT have been initialized to the same value -> "bert-base-uncased". <br>
 
 
-After running the ```train_eval.py``` file, the results will be stored in the ```results``` folder. <br>
+After running the ```train_eval.py``` file, a results folder will be created in the following format - <br>
 ```bash
 results
 ├── source_BERT
