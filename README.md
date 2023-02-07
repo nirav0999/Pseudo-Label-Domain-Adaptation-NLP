@@ -87,7 +87,7 @@ You can upload a custom BERT/RoBERTa by changing the model_path1 and model_path2
 
 ```
 model_path1 = "bert-base-uncased"
-model_name2 = "bert-base-uncased"
+model_path2 = "bert-base-uncased"
 ```
 
 <b>NOTE</b> - model1 corresponds to the target model and model2 corresponds to the source model.
